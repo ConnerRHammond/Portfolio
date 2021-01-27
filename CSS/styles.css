@@ -1,0 +1,39 @@
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+h1{
+  padding: 50px;
+  text-align: center;
+  margin:2em
+}
+body{
+  background-color: #F0FFFF;
+  margin: 5em
+  text-align:left;
+  color: #2F4F4F;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.punchline{
+  font-style:oblique;
+  font-size: 40px;
+}
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #00FFFF;     /* Yellow */
+}
+#morejokes{
+  font-size: 50px;
+}
