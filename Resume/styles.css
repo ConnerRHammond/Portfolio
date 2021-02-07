@@ -1,0 +1,57 @@
+.Achievements{
+    margin: 40px;
+    background-color: azure;
+}
+
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto  / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.classes {
+    margin: 10px;
+    background-color: azure;
+    width: 100%;
+}
+body{
+    background-color: gainsboro;
+}
+.ach{
+    text-align: center;
+}
+.picture {
+
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    width: 50%;
+    height: 600%;
+}
+
+
+@media(min-width: 451px) {
+    .picture{
+        margin: 50px;
+    }
+    .section {
+        margin: 50px;
+    }
+    .Achievements{
+        margin: 40px;
+        background-color: azure;
+    }
+
+    .portfolio {
+
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}
+@media(max-width: 450px) {
+    .portfolio {
+        grid-template: auto auto auto auto  / 1fr 1fr;
+    }
+}
