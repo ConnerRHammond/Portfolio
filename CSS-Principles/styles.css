@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-pic{
+   float:left;
+
+}
+h1{
+    font-family: fantasy , "Papyrus";
+    font-size: xxx-large;
+}
+.bio{
+    background-color:lightsalmon;
+    padding-top: 60px;
+    height:250px;
+    font-size: large;
+}
+
+p{
+    text-align: left;
+}
+.attribtues{
+    float:right;
+    font-size: large;
+    background-color: lightskyblue;
+    padding-left: 640px;
+    padding-bottom: 300px;
+}
+.name{
+    float:left;
+    padding:0;
+}
